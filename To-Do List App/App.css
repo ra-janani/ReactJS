@@ -1,0 +1,43 @@
+.Container{
+  
+  display: flex; /*flexible length on all items*/
+  align-items: center;
+  flex-direction: column;
+  
+ }
+ 
+ #header span{
+	 
+	 margin:0 30px;
+	 
+ }
+button{
+  display:inline-block;
+  flex: 1;
+  border: none;
+  background-color: teal;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.text{
+  border: 2px solid #000;
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+body{
+	 background-image:url("bg.jpg");
+}
+li{
+	list-style-type:none;
+	font-size:20px;
+	font-weight:bold;
+}
+
